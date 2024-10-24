@@ -32,7 +32,6 @@ function SearchBar() {
         data[parameter].toString().toLowerCase().includes(query)
 
       )
-
     );
 
   }
