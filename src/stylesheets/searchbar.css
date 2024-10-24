@@ -1,7 +1,14 @@
-.searchbar{
-    display: block;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+h1 {
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(1, 1, 59);
 }
+
+.search {
+    width: 30%;
+}
+
+ul li {
+    font-size: 20px;
+} 

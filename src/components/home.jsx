@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Card from './card';
 import Navbar from './Header';
+import Footer from './Footer';
+
+
 const properties = [
     {
         image: "https://images.unsplash.com/photo-1560185008-b033106afc26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJlYWNoJTIwaG91c2V8ZW58MHx8fHwxNjk3ODQ0MjA0&ixlib=rb-1.2.1&q=80&w=400",
@@ -53,6 +56,8 @@ const properties = [
 
 ];
 
+
+
 const Home = () => {
     return (
         <div>
@@ -67,6 +72,7 @@ const Home = () => {
                 />
                 ))};
             </div>
+            <Footer />
 
         </div>
 
