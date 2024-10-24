@@ -1,0 +1,49 @@
+/* Scroll container that enables horizontal scrolling */
+.scrollContainer {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px;
+    gap: 20px; /* Space between each icon container */
+    white-space: nowrap; /* Prevent wrapping of items */
+    scrollbar-width: thin; /* Custom thin scrollbar */
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+    position: static;
+}
+
+/* Individual icon container */
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px; /* Ensure each item has enough width */
+    text-align: center;
+    cursor: pointer; /* Pointer cursor to indicate it's clickable */
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.iconContainer:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Icon itself */
+.icon {
+    font-size: 40px; /* Adjust size for icon or image */
+    color: black; /* Make sure the icons are black */
+    margin-bottom: 5px;
+}
+
+/* Icon label */
+.iconName {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Style for scrollbar (only for WebKit browsers like Chrome, Safari) */
+.scrollContainer::-webkit-scrollbar {
+    height: 8px; /* Horizontal scrollbar height */
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Scrollbar color */
+    border-radius: 10px;
+}

@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Main container for the navbar */
+.navContainer {
+    display: flex;
+    padding: 10px; /* Space inside the navbar */
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Align items vertically in the center */
+    background-color: #fff; /* Background color for the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+    z-index: 1;
+    
+}
+
+/* Left section containing logo and title */
+.container {
+    display: flex;
+    align-items: center; /* Align items in the center vertically */
+    gap: 10px; /* Space between logo and title */
+}
+
+/* Right section containing additional options */
+.container2 {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+    justify-content: flex-end; /* Align to the end of the container */
+    gap: 15px; /* Space between items */
+}
+.container3 {
+    display: flex;
+
+    align-items: center; /* Center the items vertically */
+    justify-content: center; /* Align to the end of the container */
+    gap: 15px; /* Space between items */
+}
+
+
+/* Profile icons section */
+.profile {
+    display: flex;
+    border-color: aliceblue;
+    padding: 10px;
+    border-radius: 10%;
+    gap: 10px; /* Space between profile icons */
+}
+
+/* Ensure that the material icons are styled correctly */
+.material-symbols-outlined {
+    font-size: 24px; /* Adjust icon size */
+    cursor: pointer; /* Change cursor to pointer for interactivity */
+}
+.moviehome{
+    display: block;
+    padding:10px;
+
+}
+.moviehome:hover{
+    background-color: aliceblue;
+    border-radius: 10%;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 25%;
+}
+button:hover{
+    background-color: aliceblue;
+
+}
+
+
+
+
