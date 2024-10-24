@@ -15,6 +15,7 @@ const App = () => {
           <Route path='/header' element={<Navbar/>}/>
           <Route path='/footer' element={<Footer/>}/>
           <Route path='/searchbar' element={<SearchBar/>}/>
+          
         </Routes>
       </Router>
     </>
